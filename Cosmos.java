@@ -11,7 +11,7 @@ public class Main
 
   System.out.println("Welcome " + name + ".\n Which planet first, Venus, Mars, or Saturn");
 
-  String planetw = sc.next(); 
+  String planetw = sc.nextLine(); 
   if (planetw.equals ("Venus")) {
      System.out.println("Course mapped for Venus \n *** While trying to land your propulsion system was knocked off line *** \n Do you want to (search) (leave) "); }
      else if (planetw.equals ("Mars")) {

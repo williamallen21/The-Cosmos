@@ -33,13 +33,19 @@ if (decision2.equals("fix")) {
   System.out.println("Propulsion system repaired \n Do you want to (move) (leave)"); 
 } else if (decision2.equals("search")) {
   System.out.println("Nothing new to discover");
-
-/*  String decision3 = sc.nextLine();
+}
+  String decision3 = sc.nextLine();
 if (decision3.equals("move")) {
-  System.out.println("Propulsion system repaired \n Do you want to (move) (leave)"); 
+  System.out.println("You have found a new alien species \n Do you want to (fight) (leave)"); 
 } else if (decision3.equals("leave")) {
-  System.out.println("Nothing new to discover");
+  System.out.println("Which planet first, Venus, Mars, or Saturn");
 }
-*/
+
+  String decison4 = sc.nextLine();
+  if (decison4.equals("fight")) {
+    System.out.println("You have died");
+  } else if (decison4.equals("leave")) {
+  System.out.println("Which planet first, Venus, Mars, or Saturn");
+} 
+  }
 }
-  
